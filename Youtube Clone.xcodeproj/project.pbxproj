@@ -14,6 +14,9 @@
 		5E620F1025FF0CA600897CCB /* Youtube_Clone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E620F0E25FF0CA600897CCB /* Youtube_Clone.xcdatamodeld */; };
 		5E620F1225FF0CA800897CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E620F1125FF0CA800897CCB /* Assets.xcassets */; };
 		5E620F1525FF0CA800897CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E620F1325FF0CA800897CCB /* LaunchScreen.storyboard */; };
+		5E620F1E25FF0D8E00897CCB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E620F1D25FF0D8E00897CCB /* Constants.swift */; };
+		5E620F2125FF123E00897CCB /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E620F2025FF123E00897CCB /* Video.swift */; };
+		5E620F2425FF131900897CCB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E620F2325FF131900897CCB /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5E620F1125FF0CA800897CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E620F1425FF0CA800897CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E620F1625FF0CA800897CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E620F1D25FF0D8E00897CCB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E620F2025FF123E00897CCB /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5E620F2325FF131900897CCB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				5E620F1325FF0CA800897CCB /* LaunchScreen.storyboard */,
 				5E620F1625FF0CA800897CCB /* Info.plist */,
 				5E620F0E25FF0CA600897CCB /* Youtube_Clone.xcdatamodeld */,
+				5E620F1D25FF0D8E00897CCB /* Constants.swift */,
+				5E620F2025FF123E00897CCB /* Video.swift */,
+				5E620F2325FF131900897CCB /* Model.swift */,
 			);
 			path = "Youtube Clone";
 			sourceTree = "<group>";
@@ -140,6 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E620F2425FF131900897CCB /* Model.swift in Sources */,
+				5E620F1E25FF0D8E00897CCB /* Constants.swift in Sources */,
+				5E620F2125FF123E00897CCB /* Video.swift in Sources */,
 				5E620F0A25FF0CA600897CCB /* ViewController.swift in Sources */,
 				5E620F0625FF0CA600897CCB /* AppDelegate.swift in Sources */,
 				5E620F0825FF0CA600897CCB /* SceneDelegate.swift in Sources */,
